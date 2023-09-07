@@ -1,0 +1,25 @@
+body {
+  height: 100%;
+}
+
+.table {
+  width: 600px;
+  border-collapse: collapse;
+}
+.table__column {
+  border: 2px solid #000;
+  padding: 4px;
+}
+
+.table__column-header{
+  position: relative;
+  font-size: 22px;
+}
+
+.up{
+  background: no-repeat center right 6px/10px url('../images/arrow-up.png');
+}
+
+.down {
+  background: no-repeat center right 6px/10px url('../images/arrow-down.png');
+}
